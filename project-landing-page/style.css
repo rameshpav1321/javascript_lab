@@ -1,4 +1,8 @@
 /* header content */
+body {
+    padding: 0;
+    margin: 0;
+}
 
 .header {
     background-color: #1F2937;
