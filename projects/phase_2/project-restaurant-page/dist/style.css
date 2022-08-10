@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    font-family: 'Rampart One', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20%;
+}
+
+.logo {
+    height: 100%;
+    width: 200px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-div {
+    background-image: url(images/background.jpeg);
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div p {
+    font-family: Monaco;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.floating-div {
+    background-color: bisque;
+    opacity: 0.9;
+    border: 1px solid bisque;
+    border-radius: 15px;
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.chef-1 {
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+}
